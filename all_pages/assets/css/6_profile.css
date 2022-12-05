@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.profile_main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 5em;
+    background-image: url('../images/bg_flw_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile_main a img {
+  margin-bottom: 3em;
+  margin-right: 1em;
+}
+div.image_1 {
+  border-color:white;
+  margin-top: 20em;
+}
+div.center_content {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+    margin: auto;
+    max-width: 25%;
+    padding: 2em;
+    border-radius: 10px;
+    margin-left: 30em;
+    margin-top: 6em;
+    margin-right: -10em;
+}
+div.center_content img {
+  border-radius: 8em;
+  margin-bottom: 1em;
+  border: 3px solid #f108f7;
+  width: 40%;
+  height: 50%;
+}
+div.center_content input {
+  border-color: transparent;
+  width: 50%;
+}
+div.center_content p a {
+  text-decoration: none;
+}
+div.profile_main p {
+    text-align: center;
+    margin-top: -1em;
+}
+div.profile_main h2 {
+    margin-bottom: 1em;
+    color:blue;
+    margin-top: -0.1em;
+}
+div.profile_card {
+    display: flex;
+    flex-direction: row;
+}
+div.profile_card p {
+    text-align: center;
+}
+div.follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    color: white;
+    font-weight: bold;
+}
+div.follow p a {
+  color: white;
+}
+div.follow p {
+  text-decoration: none;
+  background-color: blueviolet;
+    border-radius: 1em;
+    color:white;
+    padding: 0.8em;
+    padding-top: -3em;
+}
+div.follow p:hover {
+    text-decoration: none;
+    background-color: #ff589e;
+    border-radius: 1em;
+    color:white;
+    padding: 0.8em;
+    padding-top: -3em;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+ }
+.title {
+  color: grey;
+  font-size: 18px;
+  text-align: center;
+}
+  
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-image: linear-gradient(black, gray);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  }
+div.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+  
+button:hover, a:hover {
+  opacity: 0.7;
+}
+div.post_area{
+  border: 1px solid #ff589e;
+}
+div.post_area h2 a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  font-size: 78%;
+  top: 1;
+  color: white;
+  background-image: linear-gradient(blueviolet, #ff589e);
+  padding: 0.5em;
+  width: 8%;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+}
